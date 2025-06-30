@@ -1,0 +1,15 @@
+write flutter dart minimul app For Order and Order Detail
+must work for IoS and Andriod
+must work offline and offline on choice
+must use amazon amplify GENV2 GraphQL
+must store  Order and Order Detail offline 
+When neededon a isPremiumAccount flag value store / send data aws cloud 
+
+
+
+Modify _TodoScreenState class
+must work for IoS and Andriod
+must store ToDo data offline 
+When neededon a isPremiumAccount flag value store / send data aws cloud 
+must work offline and offline on choice
+

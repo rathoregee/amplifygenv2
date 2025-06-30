@@ -1,0 +1,12 @@
+generate flutter dart mobile app using matierl 3 soruce code
+must be careful for mobile safe area
+
+having one left-side top menu (navigation drawer) having link to new page with text in menu (JV, Reports, More...)
+where JV is new page, Reports is new page and more is list of text links with splitter
+
+after bottom 3 badges button having link to new page with text in menu (JV, Reports, More...)
+where JV is new page, Reports is new page and more is list of text links with splitter
+
+write required  pubspec.yaml
+
+generated soruce code provide a download link 

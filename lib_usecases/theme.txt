@@ -1,0 +1,20 @@
+write flutter dart useMaterial3 ThemeData
+for followings elements
+
+AppBar,
+Drawer,
+ListTile,
+ElevatedButton,
+Scaffold,
+Text,
+Center,
+Dismissible,
+CheckboxListTile,
+BoxDecoration,
+amplify_authenticator,
+Amplify authenticator sign and sign-out screen ,
+
+Make sure
+must be blackish blue liner gradient
+must not be inline color values with the elements
+must be seprate constant theme and graident final data file
