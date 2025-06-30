@@ -1,0 +1,24 @@
+write flutter dart using offline supprot when disconnected from the internet
+
+Todo array having props (id :  amplify_core.UUID.getUUID()  , content: string, isDone : bool, createdAt : dateTime, updatedAt : dateTime)
+
+generate code using https://pub.dev/packages/shared_preferences flutter dart app to read and write ToDo data to persistent storage when offline or not interent connected between
+Todo array having props (id :  amplify_core.UUID.getUUID()  , content: string, isDone : bool, createdAt : dateTime, updatedAt : dateTime) 
+persistent storage must be accesible from Todo list and create Todo pages
+also send data to https://k.com/api/send every 5 second from local store
+
+
+write a  persistent storage SharedPreferences generic class NamedAs LocalMobileStore
+All crud function must be async
+Keep each generic type as store key
+Keep LocalMobileStore as seprate dart file
+From class create a object of type Todo object
+Todo object having props (id :  amplify_core.UUID.getUUID()  , content: string, isDone : bool, createdAt : dateTime, updatedAt : dateTime)
+Modify below mentioed code replace all events with Todo LocalMobileStore object
+Every 5 seconds new changes must be update to Amplify.API
+
+
+local_mobile_store.dart
+File
+modify amplify.dart,  in _TodoScreenState class, replace ModelMutations and  Amplify.API  code with LocalMobileStore functions
+where LocalMobileStore  exists in Local_Mobile_Store .dart

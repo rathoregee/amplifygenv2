@@ -45,6 +45,18 @@ class ModelProvider implements amplify_core.ModelProviderInterface {
   }
 }
 
+  /// Gets the schema for a model based on its name.
+  ///
+  /// This method is implementation-specific and may not be present in every
+  /// model provider.
+  amplify_core.ModelSchema getModelSchemaByModelName(String modelName) {
+    switch(modelName) {
+      case "Todo":
+        return Todo.schema;
+      default:
+        throw Exception("Failed to find model in model provider for model name: " + modelName);
+    }
+  }
 
 class ModelFieldValue<T> {
   const ModelFieldValue.value(this.value);

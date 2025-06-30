@@ -1,0 +1,35 @@
+create a dart flutter UI with back ground color dark blue gardient
+add transparnet contiainer with spilter recchangle and title Journl Entry
+Add text box JV number - shoulde be auot genreated  left aligned
+same row level Add text box JV Date - should be a date picker edit able left aligned
+same row level Add text box Total Debit Account auto sum up based on Grid debit column not edit able and interger two decimal  right aligned
+same row level Add text box Total Credit Account auto sum up based on Grid credit column not edit able and interger two decimal right aligned  
+same row level Add text box Opening balance edit able and interger two decimal should aito calc closing balance
+
+
+add transparnet contiainer with spilter recchangle and title Tranasctions
+
+Add a grid, with grid every row will have
+
+same row level Add column with 10% width with switch button on state shange column name to Dr and Off state change to Cr default is on state
+same row level Add column with 25% width column Account Title as drop down with display value account name and on selction store account code
+same row level Add column with 45% width column Remarks with text bax to store maxi,aum 200 words and mandaoty filed
+same row level Add column with 10% column  amount, should be interger two decimal and mandaoty filed
+same row level Add column with 10% column Running balance,must calulate ruunaing balance using formula  Opending balance + previous row running balance +debit amount-credit amount   should be interger two decimal and mandaoty filed
+with post fix if amount zero no action,  amount in negitive is Cr. other wise Dr.
+
+
+grid will have default 2 rows and grid will have add and remove row button
+first row will have first column swith button on state
+second row will have first column swith button ooff state
+
+
+after grid
+add transparnet contiainer with spilter recchangle and title Details
+Add multi line text area name Comments and  Add text box Total Closing balance  not edit able and interger two decimal should beone same row level
+Formula for closing balance is opening balace + sum of debit column - sum of credit cloumn based first cloumn switch
+
+Make store all data class object named accouting
+Make a button named validate and output validate all rows and ouput and output account as json on console
+
+Make sure validation have nice snackbar and valdaiton must focous back to filed in grid
